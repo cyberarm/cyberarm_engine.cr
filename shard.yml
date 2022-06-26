@@ -1,0 +1,13 @@
+name: cyberarm_engine
+version: 0.1.0
+
+authors:
+  - Cyberarm <matthewlikesrobots@gmail.com>
+
+crystal: 1.4.1
+
+license: MIT
+
+dependencies:
+  gosu:
+    path: "./../gosu.cr"
