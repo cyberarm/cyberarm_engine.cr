@@ -1,7 +1,17 @@
 require "gosu"
 
-module CyberarmEngine
-  VERSION = "0.1.0"
+require "./cyberarm_engine/version"
+require "./cyberarm_engine/window"
+require "./cyberarm_engine/common"
+require "./cyberarm_engine/game_state"
+require "./cyberarm_engine/game_object"
 
-  # TODO: Put your code here
-end
+require "./cyberarm_engine/ui/gui_state"
+require "./cyberarm_engine/ui/dsl"
+require "./cyberarm_engine/ui/event"
+require "./cyberarm_engine/ui/style"
+require "./cyberarm_engine/ui/theme"
+require "./cyberarm_engine/ui/element"
+require "./cyberarm_engine/ui/elements/container"
+require "./cyberarm_engine/ui/elements/stack"
+require "./cyberarm_engine/ui/elements/flow"
