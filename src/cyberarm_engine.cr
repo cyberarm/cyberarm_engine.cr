@@ -5,6 +5,7 @@ require "./cyberarm_engine/window"
 require "./cyberarm_engine/common"
 require "./cyberarm_engine/game_state"
 require "./cyberarm_engine/game_object"
+require "./cyberarm_engine/text"
 
 require "./cyberarm_engine/ui/gui_state"
 require "./cyberarm_engine/ui/dsl"

@@ -5,7 +5,7 @@ module CyberarmEngine
     property :options, :global_pause
     getter :game_objects
 
-      @down_keys : Hash(UInt32, Bool)
+    @down_keys : Hash(UInt32, Bool)
 
     def initialize(@options)
       @game_objects = [] of GameObject
